@@ -41,12 +41,12 @@ body * {
 }
 
 #container {
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   /* height: 712px; Não será necessário declarar a altura pois a altura se ajustará conforme o conteúdo for adicionado */
   /* border: 1px solid red; */
-  display: block;
-  margin: 0px auto;
-  margin-top: 56px;
+  margin: 56px auto 0px;
+  padding: 0 24px;
 }
 
 /* profile */
